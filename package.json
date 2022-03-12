@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,11 @@
     "url": "https://github.com/srinig29/nodejs-complete-learning/issues"
   },
   "homepage": "https://github.com/srinig29/nodejs-complete-learning#readme",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
   }
 }
